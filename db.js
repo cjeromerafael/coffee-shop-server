@@ -2,11 +2,11 @@
 import mysql from "mysql2";
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",      // Default for XAMPP
-  database: "coffee_shop_db",
-  port: 3307
+  host: "btnzwwriqonxchkpcr8e-mysql.services.clever-cloud.com",
+  user: "u5qgxmdcd86v0edg",
+  password: "jdtSpbizPOpMG85q7aEN",      
+  database: "btnzwwriqonxchkpcr8e",
+  port: 3306
 });
 
 connection.connect((err) => {
